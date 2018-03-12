@@ -5,9 +5,12 @@
   "author": "Google",
   "repository": "googlecodelabs/chrome-es2015",
   "devDependencies": {
-    "serve": "^1.4.0"
+    "serve": "^1.4.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
   },
   "scripts": {
-    "start": "serve --port 52587"
+    "start": "serve --port 52587",
+    "build": "webpack"
   }
 }
